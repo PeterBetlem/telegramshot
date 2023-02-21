@@ -21,8 +21,11 @@ The default screenshot interval has been set to 15 minutes.
 Compile Telegramshot.exe by running pyinstaller --onefile telegramshot.py within the
 same directory.
 The resulting telegramshot.exe requires two arguments and has one optional one:
+
 --apiToken <string> [required]
+
 --chatID <string> [required]
+
 --timeDelta <int> [optional]
 
 ## Environment
