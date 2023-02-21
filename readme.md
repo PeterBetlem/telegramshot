@@ -16,6 +16,15 @@ https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-cha
 
 The default screenshot interval has been set to 15 minutes.
 
+## Compilation and how to run
+
+Compile Telegramshot.exe by running pyinstaller --onefile telegramshot.py within the
+same directory.
+The resulting telegramshot.exe requires two arguments and has one optional one:
+--apiToken <string> [required]
+--chatID <string> [required]
+--timeDelta <int> [optional]
+
 ## Environment
 
 An environment file has been provided.
